@@ -1,0 +1,16 @@
+{
+  "name": "cs316-project4",
+  "version": "1.0.0",
+  "description": "CS316 Project 4 - multi-page survey site with accounts (Node.js + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

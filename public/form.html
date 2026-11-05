@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Coffee Survey</h1>
+
+<form id="surveyForm">
+    <fieldset>
+        <legend>Survey</legend>
+
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+    </div>
+
+    <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="1" max="120">
+    </div>
+
+    <div>
+        <label for="drink">Favorite drink:</label>
+        <select id="drink">
+            <option value="Coffee">Coffee</option>
+            <option value="Espresso">Espresso</option>
+            <option value="Latte">Latte</option>
+            <option value="Tea">Tea</option>
+            <option value="Energy Drink">Energy Drink</option>
+        </select>
+    </div>
+
+    <div>
+        Cups per day:
+        <input type="radio" id="cups0" name="cups" value="0"><label for="cups0">0</label>
+        <input type="radio" id="cups1" name="cups" value="1"><label for="cups1">1</label>
+        <input type="radio" id="cups2" name="cups" value="2"><label for="cups2">2</label>
+        <input type="radio" id="cups3" name="cups" value="3+"><label for="cups3">3+</label>
+    </div>
+
+    <div>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" rows="5" cols="40"></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+
+    </fieldset>
+</form>
+
+<p id="message"></p>
+
+<a href="records.html">Records Page</a>
+
+<script src="form.js"></script>
+</body>
+</html>

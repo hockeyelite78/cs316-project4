@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "username": "david",
+  "password": "123",
+  "form": {
+    "name": "David",
+    "age": "23",
+    "drink": "Coffee",
+    "cups": "3+",
+    "comments": "owdbouvb"
+  }
+}

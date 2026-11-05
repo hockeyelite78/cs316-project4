@@ -1,0 +1,15 @@
+body {
+font-size: 20px;
+font-family: verdana, sans-serif;
+background-color: rgb(245, 235, 220);
+color: #333333;
+margin: 35px;
+}
+
+h1 {
+text-align: center;
+}
+
+fieldset div {
+margin-bottom: 10px;
+}
